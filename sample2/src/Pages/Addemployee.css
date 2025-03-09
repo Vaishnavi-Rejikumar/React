@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px; /* Move content up */
+    margin-left: 20px; /* Move slightly to the right */
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.employee-table {
+    border-collapse: collapse;
+    width: 85%;
+    background: #1e1e1e;
+    color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 40px; /* Slight shift to the right */
+}
+
+.employee-table th,
+.employee-table td {
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: center;
+}
+
+.employee-table th {
+    background: #333;
+}
+
+.new-employee-row {
+    background: #252525;
+}
+
+.new-id {
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background: #333;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.add-btn {
+    padding: 8px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.add-btn:hover {
+    background: #0056b3;
+}
+.container {
+    margin-left: 0px; /* Reduce or remove left margin */
+}
+.employee-table {
+    transform: translateX(-200px); /* Moves the table left */
+}
+
